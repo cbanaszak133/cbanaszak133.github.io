@@ -17,3 +17,14 @@ h2{
 	font-size: 24px;
 }
 
+
+.about-me{
+	float:left;
+	width:50%;
+	margin-left:10px;
+}	
+
+.contact-me{
+	float:left;
+	width:33.33%;
+}
