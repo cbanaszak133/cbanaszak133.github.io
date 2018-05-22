@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
 		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://bootswatch.com/3/yeti/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="parallax.js-1.5.0/parallax.js"></script>
@@ -16,42 +17,28 @@
 
 	</head>
 
-	<body class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg">
+	<body class="parallax-window" data-parallax="scroll">
 
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">Chris Banaszak</a>
-				</div>
-
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#bio">Bio</a></li>
-				<li><a href="#portfolio">Past Work</a></li>
-<!-- 				<li><a href="#pictures">Gallery</a></li>
-				<li><a href="#contact">Contact Me</a></li> -->
-			</ul>	
-			</div>
-		</nav>
+	<div class="content">
 
 		<div class="container-fluid firstHeader">
 			<h2>Chris Banaszak</h2>
-			<img src="images/main-pic.png" class="picMe img-circle">
+			<img src="assets/images/main-pic.png" class="picMe img-circle">
+			<div id="icons">
+				<a href="http://www.github.com/cbanaszak133"><img src="assets/images/GitHub-Mark-32px.png"></a>
+				<a href="assets/resume.pdf"><img src="assets/images/resume.png"></a>
+				<a href="https://www.linkedin.com/in/christopher-banaszak-45046393/"><img src="assets/images/In-Black-34px-R.png"></a>
+			</div>	
 		</div>	
 
 
 		<div class="container-fluid" id="bio">
 			<div class="row">
-				<div class="col-md-3 center-block">
 
-					<h1><strong>Bio</strong></h1>
+				<h2><strong>Bio</strong></h2>
 
-					<i class="fa fa-id-card-o center-block" style="font-size:200px;text-align:center"></i>
-
-				</div>	
-
-				<div class="col-md-9">	
-				
-					<p class="first-para">I am a current high school Physics and Computer Science teacher looking to make a change into
+		
+					<p class="first-para">I am a former high school Physics and Computer Science teacher looking to make a change into
 					the software development field. I have greatly enjoyed my time as an educator and am looking forward to the new challenges
 					that software engineering will give me.</p>
 
@@ -63,8 +50,6 @@
 					<p>My teaching experience has given me a useful range of skills, particularly in the social realm. Being an educator allowed me 
 					to develop my public speaking skills, which will be incredibly important to relay information to others in a clear and concise manner. Teaching computer science courses in object oriented programming has also introduced me to interesting progamming technqiues and practices. 
 					</p>
-					
-				</div>	
 				
 			</div>
 		</div>					
@@ -72,118 +57,39 @@
 		<div class="container-fluid" id="portfolio">
 			<div class="row">
 
-				<div class="col-md-4 col-md-push-8" >
-					<h1><strong>Code Portfolio</strong></h1>
-					<i class="fa fa-code" aria-hidden="true" style="font-size:200px"></i>
-				</div>	
+				<h1><strong>Projects</strong></h1>
 
-				<div class="col-md-8 col-md-pull-4">
-						<div class="col-md-4">
-							<h2>Front-End</h2>
-							<i class="fa fa-html5 icons" aria-hidden="true"></i>
-							<p>Examples of web design using HTML/CSS, as well as other web design frameworks.</p>
-								<p><a href="https://cbanaszak133.github.io/Responsive-Portfolio/Basic-Portfolio/">
-										-Responsive Portfolio</a> Media Responsive Site</p>
-										
-								<p><a href="https://cbanaszak133.github.io/TriviaGame/"> 
-										-LOTR Trivia</a> JS/jQuery Based Trivia Game
-						</div>
 
-						<div class="col-md-4">
-							<h2>Back-End</h2>
-							<img src="images/javabw.png" class="java-image">
-							<p>Experience with back-end technologies, and proficient in the Java programming language. 
-
-								<p><a href="https://github.com/cbanaszak133/bamazon">-Bamazon</a> 
-								A terminal based database client using MySQL </p>
-							
-								<p><a href="https://polar-bastion-52352.herokuapp.com/">-Eat Da Burger!</a> Node.js MVC App</p>
-
-								<p><a href="https://studdy-buddy-nw.herokuapp.com/">-Study Buddy</a> Flashcard studying app created using React and Express Routers</p>
-
-								<p><a href="https://pure-sierra-45774.herokuapp.com/">-News-Scrape</a> News headline scraper created using MongoDB and Handlebars on the front-end</p>
+				<div>
+					<h3>Front-End</h3>
+					<p>Examples of web design using HTML/CSS, as well as other web design frameworks such as Handlebars and React.</p>
+						<p><a href="https://cbanaszak133.github.io/Responsive-Portfolio/Basic-Portfolio/">
+								-Responsive Portfolio</a> Media Responsive Site</p>
 								
-							</p>
-						</div>
+						<p><a href="https://cbanaszak133.github.io/TriviaGame/"> 
+								-LOTR Trivia</a> JS/jQuery Based Trivia Game</p>
 
-						<div class="col-md-4">
-							<h2>Mathematica</h2>
-							<i class="fa fa-flask icons" aria-hidden="true"></i>
-							<p>Have modelled physical and scientific phenomenon with the Mathematica programming language.</p>
-						</div>
-										
+						<p><a href="https://cbanaszak133.github.io/lotr-react-game/">
+								-LOTR Clicky Game</a> React based click game</p>			
+
+				
+					<h3>Back-End</h3>
+					<p>Experience with back-end technologies written in Javascript and Java, utilizing various tools and libraries.</p> 
+
+						<p><a href="https://github.com/cbanaszak133/bamazon">-Bamazon</a> 
+						A terminal based database client using MySQL </p>
+					
+						<p><a href="https://polar-bastion-52352.herokuapp.com/">-Eat Da Burger!</a> Node.js MVC App</p>
+
+						<p><a href="https://study-buddy-nw.herokuapp.com/">-Study Buddy</a> Flashcard studying app created using React and Redux, running on a Node.js server using MySQL databases</p>
+
+						<p><a href="https://pure-sierra-45774.herokuapp.com/">-News-Scrape</a> News headline scraper created using MongoDB and Handlebars on the front-end, Node.js and Express.js on the back-end.</p>
+						
+					</p>					
 				</div>
 			</div>
 		</div>
-
-<!-- 		
-		<div class="container-fluid" id="pictures">
-			<div class="row center-block">
-				<h1><strong>Images</strong></h1>
-
-				<i class="fa fa-camera-retro center-block" aria-hidden="true" style="font-size:180px;text-align:center"></i>
-			</div>	
-		</div>
-		
-
-		<div class="container-fluid" id="pictures">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/img1.jpeg" class="img-responsive center-block">
-						</div>	
-
-						<div class="col-md-4">
-							<img src="images/img2.jpeg" class="img-responsive center-block">
-						</div>	
-
-						<div class="col-md-4">
-							<img src="images/img3.jpeg" class="img-responsive center-block">
-						</div>	
-
-						<div class="col-md-4">
-							<img src="images/img1.jpeg" class="img-responsive center-block">
-						</div>	
-
-						<div class="col-md-4">
-							<img src="images/img2.jpeg" class="img-responsive center-block">
-						</div>	
-
-						<div class="col-md-4">
-							<img src="images/img3.jpeg" class="img-responsive center-block">
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>		
-
-
-		<div class="container-fluid" id="contact">
-			<div class="row">
-				<h1 class="center-block"><strong>Contact Me</strong></h1>
-				<i class="fa fa-envelope center-block" aria-hidden="true" style="font-size:180px;text-align:center"></i>
-
-
-				<div class="form-group center-block">
-					<label for="usr">Name:</label>
-					<input type="text" class="form-control" id="usr">
-				</div>
-
-				<div class="form-group center-block">
-				  <label for="em">Email:</label>
-				  <input type="email" class="form-control" id="em">
-				</div>
-
-				<div class="form-group center-block">
-  					<label for="message">Comment:</label>
-  					<textarea class="form-control" rows="5" id="message"></textarea>
-				</div>
-
-				<button type="button" class="btn btn-success center-block">Submit</button>
-			</div>
-		</div> -->
+	</div>	
 
 		<footer class="navbar-fixed-bottom">
 			<div class="footer">

@@ -1,6 +1,21 @@
 
 	body{
 		padding-top: 30px;
+		font-family: 'IBM Plex Mono', monospace;
+		background: #f9f9f4;
+	}
+
+	h1,h2,h3{
+		font-family: 'IBM Plex Mono', monospace;
+	}
+
+	.content{
+		display: block;
+		max-width: 1000px;
+		padding: 1em;
+		margin: 0 auto;
+		width: 100%;
+		flex: 1 0 auto;
 	}
 
 	.picMe{
@@ -12,13 +27,6 @@
 	.images{
 		width:240px;
 		height:220px;
-	}
-
-	.java-image{
-		width:100px;
-		height:133px;
-		margin-bottom:10px;
-		margin-top:10px;
 	}
 
 	.first-para{
@@ -39,21 +47,27 @@
 
 	.firstHeader{
 		text-align:center;
-		background-color:#339966;
-		color:white;
+	}
+
+	#icons img{
+		width:32px;
+		height:32px;
 	}
 
 	.navbar{
    		margin-bottom: 0!important;
 	}
 
-	h1{
-		text-align:center;
+	.glyphicon{
+		font-size:24px;
 	}
 
-	h2{
-		text-align:center;
+	span{
+		width:32px;
+		height:32px;
+		padding-top:5px;
 	}
+
 
 	p{
 		margin-left:10px;
@@ -61,8 +75,7 @@
 	}
 
 	#portfolio{
-		background-color:#f0f0f0;
-		text-align:center;
+
 		font:white;
 		margin-bottom:30px;
 	}
@@ -78,6 +91,10 @@
 	}
 
 	a, a:visited, a:active, a:hover{
+		color:black;
+	}
+
+	#portfolio a, a:visited, a:active, a:hover{
 		color:blue;
 	}
 
